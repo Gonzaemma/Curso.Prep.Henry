@@ -1,5 +1,7 @@
 // No cambies los nombres de las funciones.
 
+//Recordatorio mío: para pushear al servidor por defecto el comando es: git push origin master.
+
 function devolverPrimerElemento(array) {
   // Devuelve el primer elemento de un array
   // Tu código:
@@ -115,7 +117,7 @@ function numeroMasGrande(numeros) {
   // "numeros" debe ser una matriz de enteros (int/integers)
   // Devuelve el número más grande
   // Tu código:
-  var mayor=Number.MIN_SAFE_INTEGER;  //podría haber inicializado con el primero elemento del array...s
+  var mayor=Number.MIN_SAFE_INTEGER;  //podría haber inicializado con el primero elemento del array...
   for(let i=0; i<numeros.length; i++){
     if(numeros[i]>mayor){
       mayor = numeros[i];
@@ -169,7 +171,7 @@ function empiezaConNueve(n) {
   //Desarrolle una función que recibe como parámetro un número entero n. Debe retornar true si el entero 
   //inicia con 9 y false en otro caso.
   //Escribe tu código aquí
-  if(n.toString().charAt(0)==9){ //siento que esto es re ilegal XD
+  if(n.toString().charAt(0)==9){ //siento que esto es re ilegal XD. Pues no lo era :v
     return true;
   }else{
     return false;
