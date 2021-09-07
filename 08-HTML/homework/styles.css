@@ -1,0 +1,14 @@
+body{background-image: url("https://image.winudf.com/v2/image/aW5pdC53YWxscGFwZXJfc2NyZWVuc2hvdHNfMF8yYjE1NmExNg/screen-0.jpg?fakeurl=1&type=.jpg");}
+
+img{width: 400px;}
+
+#thirdDiv{height: 600px; width: 500px; 
+        background-color:#777799;
+        padding: 50px;
+        border: dotted 3.5mm rgb(64, 116, 90);}
+
+#spanId{font-size: 18px; margin: 50px;}
+
+#foodDescription{background-color: rgb(40, 44, 40); padding: 3px; width: 50%;}
+
+.divClass{color:thistle}
